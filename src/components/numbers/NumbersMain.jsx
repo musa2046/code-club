@@ -4,11 +4,11 @@ import Spacer from "./Spacer";
 const numbersData = [
   {
     title: "Completed Projects",
-    value: "10+",
+    value: "50+",
   },
   {
     title: "EXPERTS",
-    value: "10+",
+    value: "15+",
   },
   {
     title: "CLIENTS SATISFACTION",
@@ -17,7 +17,7 @@ const numbersData = [
   },
   {
     title: "AVERAGE CLIENT RETENTION IN YEARS",
-    value: "4",
+    value: "12",
   },
 ];
 

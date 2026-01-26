@@ -240,28 +240,24 @@ export const serviceMap = {
 
     team: [
       {
-        name: "Hasnain Hafeez",
-        role: "Team Lead",
-        LinkedIn: "https://www.linkedin.com/in/hasnain-hafeez/",
+        name: "Atif Muhammad",
+        role: "Team lead",
+        LinkedIn: "https://www.linkedin.com/in/atif-muhammad-ba1396289/",
+      },
+      
+      {
+        name: " Muhammad Zaigham",
+        role: "Frontend Developer",
+        LinkedIn: "www.linkedin.com/in/muhammad-zaigham-960008260",
       },
       {
-        name: "Mazhar Ahmad",
-        role: "Senior Web Developer",
-        LinkedIn: "https://www.linkedin.com/in/mazhar-ahmad/",
+        name: "Muzammil Shiraz",
+        role: "Full-stack Developer",
+        LinkedIn: "https://www.linkedin.com/in/muzammil-shiraz/",
       },
       {
-        name: "Zaigham",
-        role: "Junior Web Developer",
-        LinkedIn: "https://www.linkedin.com/in/zaigham/",
-      },
-      {
-        name: "Atif",
-        role: "Senior Web Developer",
-        LinkedIn: "https://www.linkedin.com/in/atif/",
-      },
-      {
-        name: "Musa Bukhari",
-        role: "Junior Web Developer",
+        name: "Abdur Rehman",
+        role: "Full-stack Developer",
         LinkedIn: "https://www.linkedin.com/in/musa-bukhari/",
       },
     ],
@@ -441,10 +437,7 @@ export const serviceMap = {
         ],
       },
     ],
-    team: [
-      { name: "Shaheer", role: "Team Lead" },
-      { name: "Haziq", role: "Intern" },
-    ],
+    
   },
 
   "ui-ux": {
@@ -600,8 +593,3 @@ export const serviceMap = {
     team: [],
   },
 };
-<<<<<<< HEAD
-   
-=======
-
->>>>>>> a98f6226853ddfa6e0c40ec660bd8dbe655890ad

@@ -4,8 +4,12 @@ import hero from "../assets/hero.jpg";
 import UnlockComponent from "../components/UnlockComponent";
 
 const jobs = [
-  // { title: "Web Scraper", dept: "Engineering", location: "Onsite" },
+   { title: "Web Scraper", dept: "Engineering", location: "Onsite" },
   { title: "SEO Expert", dept: "Marketing", location: "Onsite" },
+  { title: "machine learning intern", dept: "tech", location: "Onsite" },
+  { title: "Social media handler", dept: "marketing", location: "Onsite" },
+
+
 ];
 
 export default function CareerPage() {

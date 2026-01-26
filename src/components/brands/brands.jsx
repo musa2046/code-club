@@ -10,7 +10,16 @@ import brand8 from "../../assets/brand8.png";
 import brand9 from "../../assets/brand9.jpg";
 import brand10 from "../../assets/brand10.jpg";
 import brand11 from "../../assets/brand11.jpeg";
-
+import cdc from "../../assets/cdc.jpg";
+import swash from "../../assets/s wash.jpg";
+import edwardian from "../../assets/edwardian.jpg";
+import genius from "../../assets/gca.jpg";
+import standard from "../../assets/standard.jpg";
+import skill  from "../../assets/skill.jpg";
+import lavita from "../../assets/lavita.jpg";
+import pyramids from "../../assets/pyramids.jpg";
+import psx from "../../assets/pakistan-stock.jpg";
+import edge from "../../assets/edge.jpg";
 const brands = [
   { name: "Peshawar Services Club", image: brand10 },
   { name: "Haasil Pvt Ltd.", image: brand11 },
@@ -23,6 +32,17 @@ const brands = [
   { name: "Rehmat Tax Pvt Ltd.", image: brand3 },
   { name: "Federal Youth Parliment", image: brand9 },
   { name: "Zamong Khyber Pvt Ltd.", image: brand4 },
+  { name: "Imsciences (cdc).", image: cdc },
+  { name: "S-wash.", image: swash },
+  { name: "Edwardian Coaching Academy.", image: edwardian },
+  { name: "Genius Coaching Academy.", image: genius },
+  { name: "Standard Coaching Academy.", image: standard },
+  { name: "Skill connect.", image: skill },
+  { name: "Lavita Developers.", image: lavita },
+  { name: "Pyramids website.", image: pyramids },
+  { name: "Pakistan Stock exchange", image: psx },
+  { name: "Edge Cutting Group.", image: edge },
+
 ];
 
 const Brands = () => {
