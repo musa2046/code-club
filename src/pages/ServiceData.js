@@ -68,8 +68,22 @@ import icon12 from "../assets/icon12.png";
 import icon13 from "../assets/icon13.webp";
 import icon14 from "../assets/icon14.png";
 import icon15 from "../assets/icon15.png";
-
-
+import tensor from "../assets/tensor.jpg";
+import then from "../assets/thenn.jpg";
+import pytorch from "../assets/pytorch-logo.jpg"
+import reactnative from "../assets/reactnative-logo.jpg";
+import hip from "../assets/hipaa.jpg";
+import fisma from "../assets/badges-fisma.jpg";
+import nist from "../assets/nist.jpg";
+import go from "../assets/golang.jpg";
+import c from "../assets/c.jpg";
+import nmp from "../assets/nmap.jpg";
+import sem from "../assets/siem.jpg";
+import figma from "../assets/figma.jpg";
+import adobe from "../assets/adobe.jpg";
+import x from "../assets/x.jpg";
+import firm from "../assets/firmware.jpg";
+import mqt from "../assets/mqtt.jpg";
 
 export const serviceMap = {
   "mobile-apps": {
@@ -93,12 +107,13 @@ export const serviceMap = {
     ],
     techStack: {
       frameworks: [
-        { name: "React Native", icon: icon10 },
-        { name: "Flutter", icon: icon7 }, // kept icon placeholders
-        { name: "Ionic / Capacitor", icon: icon11 },
+        { name: "React Native", icon: reactnative},
+        { name: "Flutter", icon: icon4 }, // kept icon placeholders
+        { name: "Ionic / Capacitor", icon: icon1 },
       ],
       languages: [
         { name: "JavaScript / TypeScript", icon: icon5 },
+        { name: "React Native", icon: reactnative},
         { name: "Swift (iOS)", icon: icon4 },
         { name: "Kotlin (Android)", icon: icon1 },
       ],
@@ -149,6 +164,8 @@ export const serviceMap = {
       { name: "Amad ur Rehman", role: "Team Lead" },
       { name: "Abdullah", role: "Senior App Developer" },
       { name: "Affan", role: "Junior App Developer" },
+      { name: "Sharif", role: "Junior App Developer" },
+
     ],
   },
 
@@ -296,19 +313,18 @@ export const serviceMap = {
     ],
     techStack: {
       frameworks: [
-        { name: "TensorFlow / Keras", icon: icon11 },
-        { name: "PyTorch", icon: icon10 },
-        { name: "scikit-learn (classical ML)", icon: icon7 },
+        { name: "TensorFlow / Keras", icon: tensor },
+        { name: "PyTorch", icon: then},
+        { name: "scikit-learn (classical ML)", icon: pytorch },
       ],
       languages: [
         { name: "Python (primary)", icon: icon3 },
-        { name: "R (analytics)", icon: icon5 },
-        { name: "Java / C++ (production where needed)", icon: icon2 },
+       
       ],
       ai: [
-        { name: "TensorFlow", icon: icon11 },
-        { name: "PyTorch", icon: icon10 },
-        { name: "scikit-learn", icon: icon7 },
+        { name: "TensorFlow", icon: icon3 },
+        { name: "PyTorch", icon: tensor },
+        { name: "scikit-learn", icon: pytorch },
       ],
       database: [
         { icon: icon15, name: "PostgreSQL (feature store)" },
@@ -351,7 +367,6 @@ export const serviceMap = {
 
     team: [
       { name: "Ihtisham Ul Haq", role: "Team Lead" },
-      { name: "Umer", role: "Senior AI Engineer" },
     ],
   },
 
@@ -388,18 +403,18 @@ export const serviceMap = {
     ],
     techStack: {
       frameworks: [
-        { name: "Security automation & orchestration", icon: icon11 },
-        { name: "Threat intel platforms", icon: icon10 },
-        { name: "SIEM integrations", icon: icon7 },
+        { name: "Security automation & orchestration", icon: hip },
+        { name: "Threat intel platforms", icon: fisma },
+        { name: "SIEM integrations", icon: nist },
       ],
       languages: [
         { name: "Python (scripting & automation)", icon: icon3 },
-        { name: "Go / Rust (high-performance tooling)", icon: icon5 },
-        { name: "C / C++ (low-level analysis)", icon: icon2 },
+        { name: "Go / Rust (high-performance tooling)", icon: go },
+        { name: "C / C++ (low-level analysis)", icon: c },
       ],
       cybersecurity: [
-        { name: "Penetration testing tools (Nmap, Burp)", icon: icon3 },
-        { name: "SIEM / EDR integrations", icon: icon11 },
+        { name: "Penetration testing tools (Nmap, Burp)", icon: nmp },
+        { name: "SIEM / EDR integrations", icon: sem },
       ],
       database: [
         { icon: icon15, name: "PostgreSQL (alerts & logs)" },
@@ -437,7 +452,7 @@ export const serviceMap = {
         ],
       },
     ],
-    
+    team: [],
   },
 
   "ui-ux": {
@@ -472,15 +487,11 @@ export const serviceMap = {
       },
     ],
     techStack: {
-      frameworks: [
-        { name: "Design systems (Figma / Adobe XD)", icon: icon7 },
-        { name: "Prototyping & testing", icon: icon10 },
-        { name: "Component libraries", icon: icon11 },
+      Tools: [
+        { name: "Design systems (Figma / Adobe XD)", icon: figma },
+        { name: "Prototyping & testing", icon: adobe },
       ],
-      devops: [
-        { icon: icon12, name: "Design handoff (Zeplin / Storybook)" },
-        { icon: icon9, name: "Versioning & asset storage (Git / Docker for demos)" },
-      ],
+      
     },
     industries: [
       {
@@ -508,7 +519,8 @@ export const serviceMap = {
         ],
       },
     ],
-    team: [],
+      team: [],
+
   },
   iot: {
     title: "IoT Development",
@@ -543,13 +555,13 @@ export const serviceMap = {
     ],
     techStack: {
       frameworks: [
-        { name: "Edge frameworks (EdgeX, custom Node services)", icon: icon11 },
-        { name: "MQTT / CoAP stacks", icon: icon10 },
-        { name: "Embedded firmware toolchains", icon: icon7 },
+        { name: "Edge frameworks (EdgeX, custom Node services)", icon: x },
+        { name: "MQTT / CoAP stacks", icon: firm },
+        { name: "Embedded firmware toolchains", icon: mqt },
       ],
       languages: [
-        { icon: icon3, name: "Python (data & server side)" },
-        { icon: icon2, name: "C / C++ (firmware)" },
+        { icon: icon3, name: "golang (data & server side)", icon: go },
+        { icon: icon2, name: "C / C++ (firmware)", icon: c },
         { icon: icon5, name: "JavaScript / Node.js (edge services)" },
       ],
       database: [
@@ -590,6 +602,7 @@ export const serviceMap = {
         ],
       },
     ],
-    team: [],
+      team: [],
+
   },
 };

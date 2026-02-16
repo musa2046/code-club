@@ -9,21 +9,23 @@ import web_project5 from "../../assets/web_project5.png";
 import web_project6 from "../../assets/web_project6.png";
 import web_project7 from "../../assets/web-project7.png";
 import web_project8 from "../../assets/web-project8.png";
+import hasil from "../../assets/web-hassil.jpg";
 
 import ai_project from "../../assets/ai_project.png";
 import app_project from "../../assets/app_project.png";
 import app_project2 from "../../assets/app_project2.png";
 import app_project3 from "../../assets/app_project3.png";
 import cyber_project1 from "../../assets/cyber_project1.png";
-
+import App5 from "../../assets/App_project5.jpg";
+import App6 from "../../assets/App-psc.jpg";
 const projects = [
 
-  // {
-  //   title: "Peshawar Services Club",
-  //   description:
-  //     "Complete solution with product management, orders, insights, and a sleek admin panel—fast and scalable.",
-  //   image: web_project7,
-  // },
+   {
+    title: "Peshawar Services Club",
+   description:
+      "Complete solution with product management, orders, insights, and a sleek admin panel—fast and scalable.",
+   image: App6,
+   },
   {
     title: "SavSplit",
     description:
@@ -31,12 +33,12 @@ const projects = [
     image: app_project,
   },
 
-  // {
-  //   title: "Haasil - Multi vendor E-commerce Platform",
-  //   description:
-  //     "A comprehensive e-commerce platform supporting multiple vendors with features like product management, order tracking, and analytics.",
-  //   image: app_project,
-  // },
+   {
+   title: "Haasil - Multi vendor E-commerce Platform",
+   description:
+    "A comprehensive e-commerce platform supporting multiple vendors with features like product management, order tracking, and analytics.",
+   image: hasil,
+  },
   {
     title: "SEIZURE SENSE",
     description:
@@ -85,12 +87,12 @@ const projects = [
 
 
 
-  // {
-  //   title: "Federal Youth Parliament",
-  //   description:
-  //     "Complete solution with product management, orders, insights, and a sleek admin panel—fast and scalable.",
-  //   image: web_project7,
-  // },
+  {
+   title: "Federal Youth Parliament",
+  description:
+    "Complete solution with product management, orders, insights, and a sleek admin panel—fast and scalable.",
+   image: App5,
+   },
   {
     title: "VibeHive — Real-time Chat & Collaboration App",
     description:
@@ -115,12 +117,12 @@ const projects = [
   //     "Guides, maps, offline support, and trip planning to explore KP’s historical, cultural, and natural treasures.",
   //   image: app_project3,
   // },
-  //   {
-  //     title: "Smart Dual Finance",
-  //     description:
-  //       "Same as above, presented for another use case. Finance management across personal and business settings.",
-  //     image: cyber_project1,
-  //   },
+    {
+    title: "Smart Dual Finance",
+     description:
+       "Same as above, presented for another use case. Finance management across personal and business settings.",
+     image: cyber_project1,
+    },
 ];
 
 const getGradientColor = (index) => {

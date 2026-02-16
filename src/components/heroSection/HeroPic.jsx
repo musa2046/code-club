@@ -35,7 +35,7 @@ const HeroPic = () => {
           <img
             src={logo}
             alt="Code Club Logo"
-            className="w-18 h-18 object-contain"
+            className="w-10 rounded-full object-cover"
           />
           <span className="text-white font-extrabold text-4xl">Code Club</span>
         </div>

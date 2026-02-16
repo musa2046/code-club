@@ -19,6 +19,10 @@ import DevelopmentApproach from "./pages/Development";
 import IdeaToLaunch from "./pages/Idea";
 import ScrollToTop from "./components/scrollToTop";
 import NewsPage from "./pages/NewsPage";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 
 function App() {
   const lastScroll = useRef(0);

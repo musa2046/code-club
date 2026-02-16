@@ -223,7 +223,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="CodeClub Logo"
-            className="w-22 h-22 rounded-full object-cover"
+            className="w-10 rounded-full object-cover"
           />
           <span className="text-xl lg:block sm:block sm:text-2xl md:hidden font-bold">
             CodeClub
