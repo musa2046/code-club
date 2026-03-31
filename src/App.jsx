@@ -19,6 +19,7 @@ import DevelopmentApproach from "./pages/Development";
 import IdeaToLaunch from "./pages/Idea";
 import ScrollToTop from "./components/scrollToTop";
 import NewsPage from "./pages/NewsPage";
+import Portfolio from "./pages/Portfolio";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -76,6 +77,7 @@ function App() {
             <Route path="/about" element={<AboutUsSection />} />
             <Route path="/service/:slug" element={<Service />} />
             <Route path="/news" element={<NewsPage />} />
+            <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
         </main>
         <FooterMain />
