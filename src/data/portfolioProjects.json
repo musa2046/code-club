@@ -1,0 +1,65 @@
+[
+  {
+    "id": "damosa",
+    "order": 1,
+    "title": "Damosa",
+    "description": "A premium food & frozen desserts brand platform showcasing authentic samosa flavors and artisan ice creams. Features an elegant menu explorer, online ordering system, and immersive hero visuals that blend tradition with modern indulgence.",
+    "image": "Damosa.jpeg",
+    "url": "https://damosa-premium.vercel.app/",
+    "tags": ["Web Development", "UI/UX", "E-Commerce"]
+  },
+  {
+    "id": "pyramids",
+    "order": 2,
+    "title": "Pyramids",
+    "description": "Corporate digital presence for a leading architectural and engineering firm renowned for designing landmark skyscrapers and iconic commercial malls across Pakistan. Showcases expertise, project portfolios, and development milestones through a cinematic, scroll-driven experience.",
+    "image": "Pyramids-web.jpeg",
+    "url": "https://pyramids-website.vercel.app/",
+    "tags": ["Web Development", "Corporate", "Architecture"]
+  },
+  {
+    "id": "lavita",
+    "order": 3,
+    "title": "Lavita",
+    "description": "A luxury mountain club platform nestled at 9,200 ft in Malam Jabba, Swat Valley. Highlights exclusive membership experiences — from world-class skiing and vertical gardens to stargazing observatories — through a refined, dark-themed interface exuding elegance and exclusivity.",
+    "image": "lavita-web.jpeg",
+    "url": "https://lavita-luxury-4qel.vercel.app/",
+    "tags": ["Web Development", "Luxury", "Hospitality"]
+  },
+  {
+    "id": "titan-enterprises",
+    "order": 4,
+    "title": "Titan Enterprises",
+    "description": "A role-based ERP system engineered for a detergent manufacturing factory, automating end-to-end production workflows, real-time inventory tracking, financial reporting, HR & payroll management, and a live command center dashboard with actionable business intelligence.",
+    "image": "titan.png",
+    "url": null,
+    "tags": ["Full-Stack", "ERP", "Manufacturing"]
+  },
+  {
+    "id": "peshawar-services-club",
+    "order": 5,
+    "title": "Peshawar Services Club",
+    "description": "A full-stack digital ecosystem comprising a mobile app for members and a web-based CMS for administrators — enabling seamless management of facility bookings, room reservations, complaint tracking, and daily operations in real time across multiple departments.",
+    "image": "psc-web.png",
+    "url": null,
+    "tags": ["Full-Stack", "Mobile App", "CMS"]
+  },
+  {
+    "id": "concordia-peshawar-cms",
+    "order": 6,
+    "title": "Concordia Peshawar CMS",
+    "description": "A comprehensive college management system empowering administrators with real-time control over academics, student records, fee collection, attendance, examination workflows, hostel operations, and financial reporting — all unified in a single, intuitive dashboard.",
+    "image": "concordia-web.png",
+    "url": null,
+    "tags": ["Full-Stack", "Education", "CMS"]
+  },
+  {
+    "id": "haasil",
+    "order": 7,
+    "title": "Haasil",
+    "description": "Haasil is an e-commerce platform that offers a wide range of products, making it easy for customers to shop essentials online with convenience.",
+    "image": "hassil-web.png",
+    "url": "https://haasil.store/",
+    "tags": ["Full-Stack", "E-Commerce", "CMS"]
+  }
+]
